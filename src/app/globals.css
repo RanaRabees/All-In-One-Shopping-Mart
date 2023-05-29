@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .mynavback {
+  background-image: radial-gradient(
+    circle at 30% 70%,
+    #fbf8f7 0%,
+    #fbf8f7 25%,
+    #fbf8f7 50%,
+    #fbf8f7 75%,
+    #fbf8f7 100%
+  );
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.34),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+} */
+#signback {
+  background-image: url("https://colorlib.com/etc/regform/colorlib-regform-8/images/signup-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#logback {
+  background-image: url("../../public/logback.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* ============================ Go - On - Top Start================================== */
+#go {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 1000;
+  margin-right: 30px;
+  right: 0;
+  bottom: 0;
+}
+#go:hover {
+  border-radius: 50%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.34),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+/* ============================ Go - On - Top End================================== */
+
+.goomdiva {
+  background-image: url("../../public/imga.jpg");
+  background-size: 100% 100%;
+}
+
+.goomdivb {
+  background-image: url("../../public/imgb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.goomdivc {
+  background-image: url("../../public/imgc.jpg");
+  background-size: 100% 100%;
+}
+
+.goomdivd {
+  background-image: url("../../public/imgd.jpg");
+  background-size: 100% 100%;
+}
+
+.goomdive {
+  background-image: url("../../public/imge.jpg");
+  background-position: 45% 25%;
+}
+
+/*-------------------- FOOTER SECTION ------------------*/
+footer {
+  background-color: white;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.footer .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 80%; */
+}
+.icon-container {
+  display: flex;
+  gap: 1rem;
+}
+footer li {
+  margin-top: 15px;
+}
+footer li:first-child {
+  margin-top: 25px;
+}
+footer p,
+footer li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #666666;
+}
+.footer-links h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #666666;
+}
+.copyright {
+  margin-top: 6rem;
+  border-top: 1px solid #666666;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.copyright p {
+  margin: 1.5rem 8rem;
+}
+.footer {
+  padding-top: 5rem;
+  margin: 1.5rem 8rem;
+}
+.copyright span {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 15px;
+  color: #212121;
+}
